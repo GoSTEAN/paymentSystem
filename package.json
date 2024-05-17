@@ -1,0 +1,18 @@
+{
+  "name": "test-knowledge",
+  "version": "1.0.0",
+  "description": "knowledge testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tech hunter",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mongodb": "^6.6.2",
+    "mongoose": "^8.3.5",
+    "morgan": "^1.10.0"
+  }
+}

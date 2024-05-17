@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e0f0e0; /* Light green background */
+}
+
+header {
+  background-color: #4CAF50; /* Darker green header */
+  color: white; /* White text for header */
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #e0f0e0; /* Light green navigation */
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #d3d3d3; /* Light gray hover effect for navigation links */
+}
+
+.dropdown {
+  position: relative; /* For dropdown positioning */
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none; /* Hide the dropdown content by default */
+  position: absolute; /* Position the dropdown content within the container */
+  background-color: #f1f1f1; /* Light grey background */
+  min-width: 160px; /* Minimum width for the dropdown content */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Light shadow */
+  z-index: 1; /* Specify a higher z-index to display the dropdown content above other elements */
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block; /* Show the dropdown content on hover */
+}
+
+.hero {
+  text-align: center; /* Center content */
+  padding: 50px 0; /* Add padding for spacing */
+  background-color: #f0f0f0; /* Light gray background for hero section */
+}
+
+.hero h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #4CAF50; /* Darker green for hero heading */
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.new-tech,
+.courses,
+.payment {
+  text-align: center; /* Center content */
+  margin-bottom: 20px;
+  padding: 20px; /* Add padding for spacing */
+  border: 1px solid #ddd; /* Light border for sections */
+  border-radius: 5px; /* Rounded corners for sections */
+}
+
+.new-tech h3,
+.courses h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.new-tech ul,
+.courses ul {
+  margin: 0;
+  padding: 0;
+}
+
+.new-tech li,
+.courses li {
+  margin-bottom: 5px;
+}
+
+.payment {
+  margin-bottom: 20px;
+}
+
+.payment form {
+  margin: 10px 0;
+}
+
+.payment label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.payment input[type="text"] {
+  padding: 5px;
+  width: 200px;
+}
+
+.payment button {
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Darker green for button */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.payment button:hover {
+  background-color: #3e8e41;
+}
+
