@@ -1,9 +1,11 @@
 const express = require('express');
 const ejs = require('ejs');
-const mongoose =require('mongoose');
 const morgan = require("morgan");
+const { connectDB } = require("./db/mongod");
 
 const app = express();
+
+connectDB();
 
 app.listen(3000);
 
