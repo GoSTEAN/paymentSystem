@@ -1,7 +1,7 @@
 const express = require('express');
 const ejs = require('ejs');
 const morgan = require("morgan");
-const { connectDB } = require("./db/mongod");
+const { connectDB } = require("./db/mongodb");
 
 const app = express();
 
